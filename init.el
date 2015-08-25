@@ -1,17 +1,14 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (require 'orgconfig)
 (require 'dictionary.app)
+(require 'mkdconfig)
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
 (setq ispell-program-name "aspell")
 
 
 
-(autoload 'markdown-mode "markdown-mode"
-   "Major mode for editing Markdown files" t)
-(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
-(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
 
 ;; 用于查看图片时使用触摸板横向移动
 (global-set-key [wheel-right] 'forward-char)
@@ -52,7 +49,7 @@
     ("#49483E" . 100)))
  '(magit-diff-use-overlays nil)
  '(make-backup-files nil)
- 
+ '(org-from-is-user-regexp "\\<Chigo Esperisto\\>")
  '(org-mobile-directory "/Users/chigo/快盘/mobile")
  '(org-odt-convert-processes
    (quote
@@ -60,28 +57,6 @@
      ("unoconv" "unoconv -f %f -o %d %i"))))
  '(org-odt-preferred-output-format "docx")
  '(show-paren-mode t)
- '(vc-annotate-background "#2B2B2B")
- '(vc-annotate-color-map
-   (quote
-    ((20 . "#BC8383")
-     (40 . "#CC9393")
-     (60 . "#DFAF8F")
-     (80 . "#D0BF8F")
-     (100 . "#E0CF9F")
-     (120 . "#F0DFAF")
-     (140 . "#5F7F5F")
-     (160 . "#7F9F7F")
-     (180 . "#8FB28F")
-     (200 . "#9FC59F")
-     (220 . "#AFD8AF")
-     (240 . "#BFEBBF")
-     (260 . "#93E0E3")
-     (280 . "#6CA0A3")
-     (300 . "#7CB8BB")
-     (320 . "#8CD0D3")
-     (340 . "#94BFF3")
-     (360 . "#DC8CC3"))))
- '(vc-annotate-very-old-color "#DC8CC3")
  '(weechat-color-list
    (unspecified "#272822" "#49483E" "#A20C41" "#F92672" "#67930F" "#A6E22E" "#968B26" "#E6DB74" "#21889B" "#66D9EF" "#A41F99" "#FD5FF0" "#349B8D" "#A1EFE4" "#F8F8F2" "#F8F8F0")))
 (custom-set-faces
@@ -91,15 +66,3 @@
  ;; If there is more than one, they won't work right.
  )
 ;; (put 'scroll-left 'disabled nil)
-
-
-;; (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
-
-;; I use the following setting to remove the xml header line for HTML exports.
-;; This xml line was confusing Open Office when opening the HTML to convert to ODT.
-
-(setq org-html-xml-declaration (quote (("html" . "")
-                                       ("was-html" . "<?xml version=\"1.0\" encoding=\"%s\"?>")
-                                       ("php" . "<?php echo \"<?xml version=\\\"1.0\\\" encoding=\\\"%s\\\" ?>\"; ?>"))))
-
-

@@ -52,4 +52,14 @@
 
 ))
 ;; org-mode 发布配置结束
+
+;; (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
+
+;; I use the following setting to remove the xml header line for HTML exports.
+;; This xml line was confusing Open Office when opening the HTML to convert to ODT.
+
+(setq org-html-xml-declaration (quote (("html" . "")
+                                       ("was-html" . "<?xml version=\"1.0\" encoding=\"%s\"?>")
+                                       ("php" . "<?php echo \"<?xml version=\\\"1.0\\\" encoding=\\\"%s\\\" ?>\"; ?>"))))
+
 (provide 'orgconfig)
