@@ -1,5 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (require 'orgconfig)
+(require 'dictionary.app)
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
 (setq ispell-program-name "aspell")
@@ -91,30 +92,7 @@
  )
 ;; (put 'scroll-left 'disabled nil)
 
-;; Dictionary.app integration
-(defun dictionary ()
-  "Look up word at point with dictionary.app"
-  (interactive)
 
-  (let ((editable (not buffer-read-only))
-        (pt (save-excursion (mouse-set-point last-nonmenu-event)))
-        beg end)
-
-    (if (and mark-active
-             (<= (region-beginning) pt) (<= pt (region-end)) )
-        (setq beg (region-beginning)
-              end (region-end))
-      (save-excursion
-        (goto-char pt)
-        (setq end (progn (forward-word) (point)))
-        (setq beg (progn (backward-word) (point)))
-        ))
-
-    (browse-url
-     (concat "dict:///"
-             (url-hexify-string (buffer-substring-no-properties beg end))))))
-(define-key global-map (kbd "C-c d") 'dictionary)
-;; /Dictionary.app integration
 ;; (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 
 ;; I use the following setting to remove the xml header line for HTML exports.
