@@ -7,10 +7,6 @@
 (global-set-key "\C-cb" 'org-iswitchb)
 (setq org-log-done 'time)
 
-(setq org-todo-keywords
-           '((sequence "TODO(t)" "|" "DONE(d)")
-             (sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")
-             (sequence "|" "CANCELED(c)")))
 ;; (setq org-log-done 'note)
 
 (setq org-export-preserve-breaks nil)
