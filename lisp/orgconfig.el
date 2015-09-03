@@ -32,11 +32,11 @@
 
   ("org-jouchyi"
           ;; Path to your org files.
-          :base-directory "~/org/"
+          :base-directory "~/org/blog/_post"
           :base-extension "org"
 
           ;; Path to your Jekyll project.
-          :publishing-directory "~/Github/testbloging/_posts/"
+          :publishing-directory "~/Github/esperisto.github.io/_posts/"
           :recursive t
           :publishing-function org-html-publish-to-html
           :headline-levels 4 
@@ -46,9 +46,9 @@
 
 
     ("org-static"
-          :base-directory "~/org/"
+          :base-directory "~/org/blog/assets/"
           :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-          :publishing-directory "~/Github/testbloging/"
+          :publishing-directory "~/Github/esperisto.github.io/assets/"
           :recursive t
           :publishing-function org-publish-attachment)
 
