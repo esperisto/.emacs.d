@@ -5,17 +5,34 @@
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
-(setq org-log-done 'time)
+(setq org-log-done 'time) ;; Todo 完成时间
+;; (setq org-log-done 'note) ;; Todo 完成注释
+(setq org-export-preserve-breaks nil)
+;; (setq org-export-with-section-numbers nil)
 
+;; Capture begin
+(setq org-capture-templates
+      '(("t" "Tasko" entry (file+headline "~/org/personal.org" "Taskoj")
+             "* TODO %?\n  %i")
+        ("j" "Taglibro" entry (file+datetree "~/org/taglibro.org")
+             "* %?\n录入时间 %U\n  %i")))
+;; Capture end
+
+;; Refile
+(setq org-refile-targets '((nil :maxlevel . 2)
+                                ; all top-level headlines in the
+                                ; current buffer are used (first) as a
+                                ; refile target
+                           (org-agenda-files :level . 2)))
+;; Refile end
+
+;; Todo keyword
 (setq org-todo-keywords
            '((sequence "TODO(t)" "|" "DONE(d)")
              (sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")
              (sequence "|" "CANCELED(c)")))
-;; (setq org-log-done 'note)
+;; Todo keyword end
 
-(setq org-export-preserve-breaks nil)
-
-;; (setq org-export-with-section-numbers nil)
 (setq org-agenda-files (quote ("~/org")))
 (setq org-export-backends (quote (ascii html icalendar latex md odt)))
 (setq org-export-with-section-numbers nil)

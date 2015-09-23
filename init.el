@@ -35,6 +35,7 @@
  '(ispell-program-name "aspell")
  '(make-backup-files nil)
  '(org-export-with-sub-superscripts (quote {}))
+ '(org-mobile-directory "~/mobileorg")
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")

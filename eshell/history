@@ -1,0 +1,43 @@
+ls
+cd 
+ls
+ls
+cd Documents/
+ls
+cd 
+ls
+cd GitHub/
+ls
+cd hello-world/
+ls
+emacs README.md 
+bash
+ls
+README.md  _site
+README.md  _site
+l
+ls
+la
+bash
+ls
+exit
+exit
+ls
+cd css
+cd ..
+ls
+cd ..
+ls
+cd GitHub/
+ls
+cd hello-world/
+ls
+find-file README.md  _site
+find-file hsinyilin.org  
+exit
+ls
+open klavaro.org 
+open
+s
+?
+help
