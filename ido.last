@@ -3,42 +3,50 @@
 ;; ----- ido-last-directory-list -----
 (
  ("/Users/" . "chigo/")
- ("/" . "Users/")
+ ("/" . "etc/")
  ("/Users/chigo/.emacs.d/" . "lisp/")
- ("/Users/chigo/" . ".emacs.d/")
+ ("/Users/chigo/" . "org/")
  ("/Users/chigo/org/blog/" . "_post/")
  ("/Users/chigo/org/" . "blog/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/chigo/.emacs.d/lisp/"
  "/Users/chigo/org/"
+ "/etc/"
+ "/Users/chigo/.emacs.d/lisp/"
+ "/Users/chigo/org/quotes/"
  "/Users/chigo/.emacs.d/"
  "/Users/chigo/org/blog/_post/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "orgconfig.el"
+ "personal.org"
+ "hosts"
  "from-mobile.org"
  "from-mobile.org_archive"
+ "orgconfig.el"
+ "keyanqin2.org"
+ "keyanqin.org"
  "taglibro.org"
  "init.el"
- "personal.org"
  "notes"
- "2015-9-5-Migrant-to-Jekyll-on-Github.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/chigo/org/" (22015 57903 0 0) "translations/" "test.org" "taglibro.org" "quotes/" "personal.org" "notes.org" "klavaro.org" "img/" "hsinyilin.org" "from-mobile.org_archive" "from-mobile.org" "css/" "blog.org" "blog/" ".DS_Store" ".#personal.org" ".#from-mobile.org" "#personal.org#" "#from-mobile.org#" "../" "./")
+ ("/Users/chigo/org/" (22054 21708 0 0) "translations/" "test.org" "taglibro.org" "quotes/" "personal.org" "personal.html" "notes.org" "klavaro.org" "img/" "hsinyilin.org" "from-mobile.org_archive" "from-mobile.org" "css/" "blog.org" "blog/" ".DS_Store" ".#personal.org" "#personal.org#" "../" "./")
 
- ("/Users/chigo/.emacs.d/lisp/" (22013 32731 0 0) "yasnippet/" "yasconfig.el" "textsizechange.el" "orgconfig.el" "mkdconfig.el" "markdown-mode.el" "dictionary.app.el" ".DS_Store" "../" "./")
+ ("/Users/chigo/" (22050 24162 0 0) "百度云同步盘/" "我的坚果云/" "快盘/" "VirtualBox VMs/" "python-study/" "Public/" "Pictures/" "org/" "Music/" "Movies/" "mobileorg/" "Library/" "Heartsome Workspace/" "GitHub/" "Downloads/" "Documents/" "Desktop/" "Calibre Library/" "Applications/" ".xlive/" ".Xauthority" ".viminfo" ".Trash/" ".swt/" ".ssh/" ".ShadowsocksX/" ".rnd" ".rbenv/" ".org-timestamps/" ".nutstore/" ".newsrc-dribble" ".mplayer/" ".local/" ".lesshst" ".kindle/" ".hgignore_global" ".gitignore_global" ".gitconfig" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".aspell.en.pws" ".aspell.en.prepl" "../" "./")
 
- ("/Users/chigo/.emacs.d/" (22013 32731 0 0) "url/" "tutorial/" "snippets/" "places" "notes" "lisp/" "init.el" "ido.last" "games/" "eshell/" "elpa/" "bookmarks" "auto-save-list/" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#init-reset.el#" "../" "./")
+ ("/etc/" (22040 26876 0 0) "zshenv" "xtab" "ttys" "syslog.conf" "sudoers" "sudo_lecture" "sshd_config~previous" "sshd_config" "ssh_config~orig" "ssh_config" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.imaging" "rc.common" "racoon/" "protocols" "profile" "ppp/" "postfix/" "php.ini.default-5.2-previous~orig" "php.ini.default-5.2-previous" "php.ini.default" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd~orig" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "moduli~previous" "moduli" "master.passwd~orig" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "hosts~orig" "hosts~" "hosts.hum" "hosts.equiv" "hosts" "group~previous" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization.deprecated" "asl.conf" "asl/" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "../" "./")
 
- ("/Users/chigo/" (22013 32568 0 0) "百度云同步盘/" "我的坚果云/" "快盘/" "VirtualBox VMs/" "python-study/" "Public/" "Pictures/" "org/" "Music/" "Movies/" "mobileorg/" "Library/" "Heartsome Workspace/" "GitHub/" "Downloads/" "Documents/" "Desktop/" "Calibre Library/" "Applications/" ".xlive/" ".Xauthority" ".viminfo" ".Trash/" ".swt/" ".ssh/" ".ShadowsocksX/" ".rnd" ".rbenv/" ".org-timestamps/" ".nutstore/" ".newsrc-dribble" ".mplayer/" ".local/" ".lesshst" ".kindle/" ".hgignore_global" ".gitignore_global" ".gitconfig" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".aspell.en.pws" ".aspell.en.prepl" "../" "./")
+ ("/Users/chigo/.emacs.d/lisp/" (22020 3072 0 0) "yasnippet/" "yasconfig.el" "textsizechange.el" "orgconfig.el" "mkdconfig.el" "markdown-mode.el" "dictionary.app.el" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/org/quotes/" (22019 48251 0 0) "zhangwei.org" "XUNDING-Quote.org" "Shixiangdong.org" "quote.org" "quan.org" "ms.han.part1.org" "longpart2.org" "keyanqin.org" "keyanqin.html" "huwei.org" "gw-electric.org" "cheng.org" "cheerton.org" "century.org" "Bicycle.org" "Affidavit.org" "../" "./")
+
+ ("/Users/chigo/.emacs.d/" (22018 22589 0 0) "url/" "tutorial/" "snippets/" "places" "notes" "lisp/" "init.el" "ido.last" "games/" "eshell/" "elpa/" "bookmarks" "auto-save-list/" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#init-reset.el#" "../" "./")
 
  ("/Users/" (21597 58919 0 0) "Shared/" "Guest/" "chigo/" ".localized" "../" "./")
 
