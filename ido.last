@@ -2,6 +2,10 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/chigo/GitHub/esperisto.github.io/" . "_posts/")
+ ("/Users/chigo/GitHub/" . "esperisto.github.io/")
+ ("/Users/chigo/Documents/tokipona-course/" . "target/")
+ ("/Users/chigo/Documents/" . "tokipona-course/")
  ("/Users/" . "chigo/")
  ("/" . "etc/")
  ("/Users/chigo/.emacs.d/" . "lisp/")
@@ -13,44 +17,63 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/chigo/org/"
- "/etc/"
- "/Users/chigo/.emacs.d/lisp/"
- "/Users/chigo/org/quotes/"
- "/Users/chigo/.emacs.d/"
  "/Users/chigo/org/blog/_post/"
+ "/Users/chigo/GitHub/esperisto.github.io/"
+ "/github.com:"
+ "/Users/chigo/.emacs.d/lisp/"
+ "/Users/chigo/.emacs.d/"
+ "/Users/chigo/Documents/tokipona-course/target/"
+ "/etc/"
+ "/Users/chigo/org/quotes/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "personal.org"
- "hosts"
  "from-mobile.org"
  "from-mobile.org_archive"
+ "participo.org"
+ "personal.org"
+ "2015-12-23-participo.org"
+ "2015-12-19-My-translation-road.org"
+ "CNAME"
  "orgconfig.el"
- "keyanqin2.org"
- "keyanqin.org"
- "taglibro.org"
  "init.el"
- "notes"
+ "o kama sona e toki pona!.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/chigo/org/" (22054 21708 0 0) "translations/" "test.org" "taglibro.org" "quotes/" "personal.org" "personal.html" "notes.org" "klavaro.org" "img/" "hsinyilin.org" "from-mobile.org_archive" "from-mobile.org" "css/" "blog.org" "blog/" ".DS_Store" ".#personal.org" "#personal.org#" "../" "./")
+ ("/Users/chigo/org/" (22172 46914 0 0) "translations/" "test.org" "taglibro.org" "quotes/" "personal.org" "personal.html" "participo.org" "participo.odt" "participo.html" "notes.org" "klavaro.org" "img/" "hsinyilin.org" "from-mobile.org_archive" "from-mobile.org" "css/" "blog.org" "blog/" ".DS_Store" "../" "./")
 
- ("/Users/chigo/" (22050 24162 0 0) "百度云同步盘/" "我的坚果云/" "快盘/" "VirtualBox VMs/" "python-study/" "Public/" "Pictures/" "org/" "Music/" "Movies/" "mobileorg/" "Library/" "Heartsome Workspace/" "GitHub/" "Downloads/" "Documents/" "Desktop/" "Calibre Library/" "Applications/" ".xlive/" ".Xauthority" ".viminfo" ".Trash/" ".swt/" ".ssh/" ".ShadowsocksX/" ".rnd" ".rbenv/" ".org-timestamps/" ".nutstore/" ".newsrc-dribble" ".mplayer/" ".local/" ".lesshst" ".kindle/" ".hgignore_global" ".gitignore_global" ".gitconfig" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".aspell.en.pws" ".aspell.en.prepl" "../" "./")
+ ("/Users/chigo/" (22137 39967 0 0) "百度云同步盘/" "我的坚果云/" "快盘/" "VirtualBox VMs/" "python-study/" "Public/" "Pictures/" "org/" "Music/" "Movies/" "mobileorg/" "Library/" "Heartsome Workspace/" "GitHub/" "Downloads/" "Documents/" "Desktop/" "Calibre Library/" "Applications/" ".xlive/" ".Xauthority" ".viminfo" ".Trash/" ".swt/" ".ssh/" ".ShadowsocksX/" ".rnd" ".rbenv/" ".org-timestamps/" ".nutstore/" ".newsrc-dribble" ".mplayer/" ".local/" ".lesshst" ".kindle/" ".hgignore_global" ".gitignore_global" ".gitconfig" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".aspell.en.pws" ".aspell.en.prepl" "../" "./")
 
- ("/etc/" (22040 26876 0 0) "zshenv" "xtab" "ttys" "syslog.conf" "sudoers" "sudo_lecture" "sshd_config~previous" "sshd_config" "ssh_config~orig" "ssh_config" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.imaging" "rc.common" "racoon/" "protocols" "profile" "ppp/" "postfix/" "php.ini.default-5.2-previous~orig" "php.ini.default-5.2-previous" "php.ini.default" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd~orig" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "moduli~previous" "moduli" "master.passwd~orig" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "hosts~orig" "hosts~" "hosts.hum" "hosts.equiv" "hosts" "group~previous" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization.deprecated" "asl.conf" "asl/" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "../" "./")
+ ("/Users/chigo/org/blog/_post/" (22137 39396 0 0) "2015-9-5-Migrant-to-Jekyll-on-Github.org" "2015-9-5-Migrant-to-Jekyll-on-Github.html" "2015-12-23-participo.org" "2015-12-19-My-translation-road.org" "2015-12-19-My-translation-road.html" "../" "./")
 
- ("/Users/chigo/.emacs.d/lisp/" (22020 3072 0 0) "yasnippet/" "yasconfig.el" "textsizechange.el" "orgconfig.el" "mkdconfig.el" "markdown-mode.el" "dictionary.app.el" ".DS_Store" "../" "./")
+ ("/Users/chigo/.emacs.d/" (22133 7080 0 0) "url/" "tutorial/" "tramp" "snippets/" "places" "notes" "lisp/" "init.el" "ido.last" "games/" "eshell/" "elpa/" "bookmarks" "auto-save-list/" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#init-reset.el#" "../" "./")
 
- ("/Users/chigo/org/quotes/" (22019 48251 0 0) "zhangwei.org" "XUNDING-Quote.org" "Shixiangdong.org" "quote.org" "quan.org" "ms.han.part1.org" "longpart2.org" "keyanqin.org" "keyanqin.html" "huwei.org" "gw-electric.org" "cheng.org" "cheerton.org" "century.org" "Bicycle.org" "Affidavit.org" "../" "./")
+ ("/etc/" (22133 539 0 0) "zshrc" "zprofile" "xtab" "ttys" "syslog.conf" "sudoers" "sudo_lecture" "sshd_config~previous" "ssh_config~orig" "ssh/" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.common" "racoon/" "protocols" "profile" "ppp/" "postfix/" "php.ini.default-5.2-previous~orig" "php.ini.default-5.2-previous" "php.ini.default" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd~orig" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "moduli~previous" "master.passwd~orig" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "hosts~orig" "hosts~" "hosts.hum" "hosts.equiv" "hosts" "group~previous" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "bashrc_Apple_Terminal" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization.deprecated" "asl.conf" "asl/" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "../" "./")
 
- ("/Users/chigo/.emacs.d/" (22018 22589 0 0) "url/" "tutorial/" "snippets/" "places" "notes" "lisp/" "init.el" "ido.last" "games/" "eshell/" "elpa/" "bookmarks" "auto-save-list/" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#init-reset.el#" "../" "./")
+ ("/Users/chigo/GitHub/esperisto.github.io/_posts/" (21997 44816 0 0) "2015-9-5-Migrant-to-Jekyll-on-Github.html" "2013-12-29-tajpi-esperanton-en-makintosho.md" "2013-08-16-OS-X-Send-to.md" "2013-03-26-better-music-than-white-noise.md" "2013-03-20-fatest-and-simplest-text-editor-in-the-world.md" "2012-02-08-esperantaj-pagharoj-por-lernantoj.md" "2011-01-05-skribilo-kaj-destino.md" "2010-12-03-family-constelation-wikipedia-entry.md" "2010-07-02-kio-kaj-kiu-estas-esperantisto.md" "2010-01-14-testing-juziyue.md" "2009-09-24-8-characteristics-of-a-good-team-leader.md" "2009-08-28-10-tips-for-communicating-with-employees.md" "2009-06-15-6-steps-to-a-fundraising-plan-for-a-new-nonprofit.md" "2008-11-27-10-tips-for-successful-public-speaking.md" "2008-08-29-green-it-healthy-life.md" "2008-07-26-handling-incoming-communication.md" "2008-07-11-7-deadly-sins-for-speakers-and-presenters.md" "2008-06-21-hello-world.md" "2007-12-28-bottle-and-cap-opener.md" "2007-12-24-merry-xmas.md" "2007-12-03-i-still-alive.md" "2007-10-11-5-steps-to-useful-meetings.md" "2007-09-13-5-virtues-of-successful-man.md" "2007-09-12-7-tips-for-making-waiting-more-productive.md" "2007-08-31-blogday.md" "2007-08-23-update-in-traditional-chinese.md" "2007-08-21-78.md" "2007-08-03-how-to-make-portable-skype.md" "2007-07-29-live-writer-chinese-version.md" "2007-07-13-how-to-input-chinese-in-plugoo.md" "2007-07-12-aosou-fun-blog.md" "2007-06-28-10-tips-help-to-keep-your-desk-clean.md" "2007-06-15-blogsome-banned-again.md" "2007-06-06-hello-world-2.md" "2007-05-31-beloved-singer-gone.md" "2007-05-04-6-tips-help-to-overcome-procrastination.md" "2007-05-03-8-common-time-wastes.md" "2007-05-01-my-sayings.md" "2007-04-21-ajaxtrans.md" "2007-04-19-free-editors.md" "2007-03-16-review-esperanto.md" "2007-03-16-review-college-life.md" "2007-03-15-review-readings.md" "2007-02-05-do-it-as-your-will-vs-all-respects.md" "2007-01-26-pagerank-raised.md" "2007-01-26-move-and-backup.md" "2006-11-22-ubuntu-down.md" "2006-09-26-ubuntu-606-installation-tips.md" "2006-09-18-9-18.md" "2006-09-14-updated-about-me.md" "2006-09-11-recategorized-and-aq-blog.md" "2006-09-03-an-open-plan.md" "2006-08-21-10-mental-tracks.md" "2006-07-19-bad-weather.md" "2006-07-14-now-and-past.md" "2006-07-01-thoughts.md" "2006-05-20-remenbrance.md" "2005-10-19-current-feeling.md" "2005-08-20-about-to-go.md" "2005-08-16-about-esperanto-websites.md" "2005-08-15-Xipu-and-Huayang.md" "2005-07-31-riding-practice.md" ".DS_Store" "../" "./")
 
- ("/Users/" (21597 58919 0 0) "Shared/" "Guest/" "chigo/" ".localized" "../" "./")
+ ("/Users/chigo/GitHub/esperisto.github.io/" (22129 46207 0 0) "tags.html" "sitemap.xml" "search.json" "search.html" "README.md" "LICENSE" "index.html" "feed.xml" "favicon.png" "copyright.html" "contact.html" "CNAME" "assets/" "archive.html" "about.html" "_site/" "_posts/" "_layouts/" "_includes/" "_config.yml" "404.html" ".sass-cache/" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
- ("/Users/chigo/GitHub/" (21989 45915 0 0) "wangana-master.zip" "testing-git/" "jekyll-export.zip" "jekyll-export/" "hello-world/" "esperisto.github.io/" ".DS_Store" "../" "./")
+ ("/Users/chigo/Documents/tokipona-course/target/" (22100 37303 0 0) "Toki Pona Vocabulary Index.html" "Toki Pona Place Names.html" "Toki Pona Lesson 9.html" "Toki Pona Lesson 8.html" "Toki Pona Lesson 7.html" "Toki Pona Lesson 6.html" "Toki Pona Lesson 5.html" "Toki Pona Lesson 4.html" "Toki Pona Lesson 3.html" "Toki Pona Lesson 2.html" "Toki Pona Lesson 19.html" "Toki Pona Lesson 18.html" "Toki Pona Lesson 17.html" "Toki Pona Lesson 16.html" "Toki Pona Lesson 15.html" "Toki Pona Lesson 14.html" "Toki Pona Lesson 13.html" "Toki Pona Lesson 12.html" "Toki Pona Lesson 11.html" "Toki Pona Lesson 10.html" "Toki Pona Lesson 1.html" "Toki Pona Language Names.html" "Toki Pona Dictionary.html" "Toki Pona Course Summary.html" "style1.css" "smiley.png" "Phonetic Conversion in Toki Pona.html" "o kama sona e toki pona!.html" "next.png" "../" "./")
+
+ ("/Users/chigo/GitHub/" (22099 13164 0 0) "wangana-master.zip" "tokipona/" "testing-git/" "jekyll-export.zip" "jekyll-export/" "hello-world/" "esperisto.github.io/" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/.emacs.d/lisp/" (22124 19472 0 0) "yasnippet/" "yasconfig.el" "textsizechange.el" "orgconfig.el" "mkdconfig.el" "markdown-mode.el" "dictionary.app.el" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/org/translations/" (21978 44415 0 0) "Xunding/" "shi/" "Gao/" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/Documents/tokipona-course/source/" (22093 37070 0 0) "Toki Pona Vocabulary Index.html" "Toki Pona Place Names.html" "Toki Pona Lesson 9.html" "Toki Pona Lesson 8.html" "Toki Pona Lesson 7.html" "Toki Pona Lesson 6.html" "Toki Pona Lesson 5.html" "Toki Pona Lesson 4.html" "Toki Pona Lesson 3.html" "Toki Pona Lesson 2.html" "Toki Pona Lesson 19.html" "Toki Pona Lesson 18.html" "Toki Pona Lesson 17.html" "Toki Pona Lesson 16.html" "Toki Pona Lesson 15.html" "Toki Pona Lesson 14.html" "Toki Pona Lesson 13.html" "Toki Pona Lesson 12.html" "Toki Pona Lesson 11.html" "Toki Pona Lesson 10.html" "Toki Pona Lesson 1.html" "Toki Pona Language Names.html" "Toki Pona Dictionary.html" "Toki Pona Course Summary.html" "Phonetic Conversion in Toki Pona.html" "o kama sona e toki pona!.html" "../" "./")
+
+ ("/Users/chigo/Documents/tokipona-course/" (22098 52822 0 0) "tokipona-course-omegat.tmx" "tokipona-course-level2.tmx" "tokipona-course-level1.tmx" "tm/" "target/" "source/" "omegat.project" "omegat/" "glossary/" "dictionary/" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/Documents/" (22093 36979 0 0) "青羊淘宝店铺信息汇总.xls" "致医院领导一封信.pdf" "致医院领导一封信.docx" "老爸文件/" "给总监_公司的信-中英文-英文修订稿.doc" "毛舅舅的联系人.vcf" "吴佳/" "Wordpress Media/" "Virtual Machines.localized/" "Trados TM/" "tokipona-course/" "TiddlyWiki-Filozofio/" "TiddlyWiki-anything.html" "Tencent Files/" "Studio 2011/" "RDC Connections/" "PPT de Pradip Ghimire.zip" "PPT de Pradip Ghimire/" "Microsoft 用户数据/" "Libro/" "Heartsome TMX Editor/" "Heartsome TM/" "Heartsome Termbase/" "flvcd/" "Esperisto/" "EComegat/" "desktop.ini" "CEomegat/" "Anki/" "00001.vcf" ".localized" ".DS_Store" "$RECYCLE.BIN/" "../" "./")
+
+ ("/Users/" (22050 59933 0 0) "Shared/" "Guest/" "chigo/" ".localized" "../" "./")
+
+ ("/Users/chigo/org/quotes/" (22019 62783 0 0) "zhangwei.org" "XUNDING-Quote.org" "Shixiangdong.org" "quote.org" "quan.org" "ms.han.part1.org" "longpart2.org" "keyanqin2.org" "keyanqin2.html" "keyanqin.org" "keyanqin.html" "huwei.org" "gw-electric.org" "cheng.org" "cheerton.org" "century.org" "Bicycle.org" "Affidavit.org" "../" "./")
 
  ("/Users/chigo/org/css/" (21978 60183 0 0) "../" "./")
 
@@ -69,8 +92,6 @@
  ("/usr/local/Cellar/emacs/HEAD/share/info/" (21983 15371 0 0) "emacs/" "../" "./")
 
  ("/usr/local/Cellar/emacs/HEAD/share/info/emacs/" (21983 15376 0 0) "woman.info.gz" "wisent.info.gz" "widget.info.gz" "viper.info.gz" "vip.info.gz" "vhdl-mode.info.gz" "url.info.gz" "tramp.info.gz" "todo-mode.info.gz" "srecode.info.gz" "speedbar.info.gz" "smtpmail.info.gz" "sieve.info.gz" "ses.info.gz" "semantic.info.gz" "sc.info.gz" "sasl.info.gz" "remember.info.gz" "reftex.info.gz" "rcirc.info.gz" "pgg.info.gz" "pcl-cvs.info.gz" "org.info.gz" "octave-mode.info.gz" "nxml-mode.info.gz" "newsticker.info.gz" "mh-e.info.gz" "message.info.gz" "mairix-el.info.gz" "info.info.gz" "ido.info.gz" "idlwave.info.gz" "htmlfontify.info.gz" "gnus.info.gz" "forms.info.gz" "flymake.info.gz" "eww.info.gz" "eudc.info.gz" "eshell.info.gz" "ert.info.gz" "erc.info.gz" "epa.info.gz" "emacs.info.gz" "emacs-mime.info.gz" "emacs-gnutls.info.gz" "elisp.info.gz" "eintr.info.gz" "eieio.info.gz" "efaq.info.gz" "edt.info.gz" "ediff.info.gz" "ede.info.gz" "ebrowse.info.gz" "dired-x.info.gz" "dir" "dbus.info.gz" "cl.info.gz" "ccmode.info.gz" "calc.info.gz" "bovine.info.gz" "autotype.info.gz" "auth.info.gz" "ada-mode.info.gz" "../" "./")
-
- ("/Users/chigo/org/blog/_post/" (21997 44803 0 0) "2015-9-5-Migrant-to-Jekyll-on-Github.org" "2015-9-5-Migrant-to-Jekyll-on-Github.html" "../" "./")
 
  ("/Users/chigo/org/blog/" (21997 44344 0 0) "assets/" "_post/" ".DS_Store" "../" "./")
 )

@@ -9,7 +9,7 @@
  (position . 1240))
 ("org-capture-last-stored"
  (filename . "~/org/personal.org")
- (front-context-string . "** TODO Rabies V")
- (rear-context-string . "2015-10-11 Sun>\n")
- (position . 7201))
+ (front-context-string . "** TODO 制作《论犹太问问")
+ (rear-context-string . "2016-02-05 Fri]\n")
+ (position . 9937))
 )

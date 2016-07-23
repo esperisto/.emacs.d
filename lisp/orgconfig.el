@@ -15,7 +15,9 @@
       '(("t" "Tasko" entry (file+headline "~/org/personal.org" "Taskoj")
              "* TODO %?\n  %i")
         ("j" "Taglibro" entry (file+datetree "~/org/taglibro.org")
-             "* %?\n录入时间 %U\n  %i")))
+	 "* %?\n录入时间 %U\n  %i")
+        ("n" "Noto" entry (file+headline "~/org/notes.org" "Notes C-c C-z")
+         "* %? %U\n  %i")))
 ;; Capture end
 
 ;; Refile
@@ -28,7 +30,7 @@
 
 ;; Todo keyword
 (setq org-todo-keywords
-           '((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d)")
+           '((sequence "TODO(t)" "PENDING(p)" "外包(o)" "|" "DONE(d)")
              (sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")
              (sequence "|" "CANCELED(c)")))
 ;; Todo keyword end
