@@ -2,25 +2,33 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/chigo/GitHub/esperisto.github.io/" . "_posts/")
+ ("/Users/chigo/Downloads/willard-yuan-theme-master/" . "_layouts/")
+ ("/Users/chigo/Downloads/" . "willard-yuan-theme-master/")
+ ("/Users/chigo/GitHub/esperisto.github.io/" . "_draft/")
  ("/Users/chigo/GitHub/" . "esperisto.github.io/")
  ("/Users/chigo/Documents/tokipona-course/" . "target/")
  ("/Users/chigo/Documents/" . "tokipona-course/")
  ("/Users/" . "chigo/")
  ("/" . "etc/")
  ("/Users/chigo/.emacs.d/" . "lisp/")
- ("/Users/chigo/" . "org/")
+ ("/Users/chigo/" . "GitHub/")
  ("/Users/chigo/org/blog/" . "_post/")
  ("/Users/chigo/org/" . "blog/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/chigo/GitHub/esperisto.github.io/_draft/"
+ "/Users/chigo/.emacs.d/lisp/"
  "/Users/chigo/org/"
+ "/Users/chigo/Downloads/willard-yuan-theme-master/"
+ "/Users/chigo/Downloads/willard-yuan-theme-master/_layouts/"
+ "/Users/chigo/Downloads/willard-yuan-theme-master/cn/"
+ "/Users/chigo/Downloads/willard-yuan-theme-master/css/"
+ "/Users/chigo/Downloads/willard-yuan-theme-master/project/"
  "/Users/chigo/org/blog/_post/"
  "/Users/chigo/GitHub/esperisto.github.io/"
  "/github.com:"
- "/Users/chigo/.emacs.d/lisp/"
  "/Users/chigo/.emacs.d/"
  "/Users/chigo/Documents/tokipona-course/target/"
  "/etc/"
@@ -29,51 +37,65 @@
 
 ;; ----- ido-work-file-list -----
 (
- "from-mobile.org"
- "from-mobile.org_archive"
- "participo.org"
- "personal.org"
- "2015-12-23-participo.org"
- "2015-12-19-My-translation-road.org"
- "CNAME"
+ "2016-8-20-org-mode-export-to-word-or-odt.md"
  "orgconfig.el"
- "init.el"
- "o kama sona e toki pona!.html"
+ "personal.org"
+ "CNAME"
+ "default.html"
+ "index.html"
+ "project.html"
+ "site.css"
+ "copyright.html"
+ "from-mobile.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/chigo/org/" (22172 46914 0 0) "translations/" "test.org" "taglibro.org" "quotes/" "personal.org" "personal.html" "participo.org" "participo.odt" "participo.html" "notes.org" "klavaro.org" "img/" "hsinyilin.org" "from-mobile.org_archive" "from-mobile.org" "css/" "blog.org" "blog/" ".DS_Store" "../" "./")
+ ("/Users/chigo/GitHub/esperisto.github.io/_draft/" (22428 34768 0 0) ".DS_Store" "../" "./")
 
- ("/Users/chigo/" (22137 39967 0 0) "百度云同步盘/" "我的坚果云/" "快盘/" "VirtualBox VMs/" "python-study/" "Public/" "Pictures/" "org/" "Music/" "Movies/" "mobileorg/" "Library/" "Heartsome Workspace/" "GitHub/" "Downloads/" "Documents/" "Desktop/" "Calibre Library/" "Applications/" ".xlive/" ".Xauthority" ".viminfo" ".Trash/" ".swt/" ".ssh/" ".ShadowsocksX/" ".rnd" ".rbenv/" ".org-timestamps/" ".nutstore/" ".newsrc-dribble" ".mplayer/" ".local/" ".lesshst" ".kindle/" ".hgignore_global" ".gitignore_global" ".gitconfig" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".aspell.en.pws" ".aspell.en.prepl" "../" "./")
+ ("/Users/chigo/GitHub/" (22431 10228 0 0) "wangana-master.zip" "tokipona/" "testing-git/" "testing-blog/" "MeetHyde/" "Jekyll-Pithy/" "jekyll-export.zip" "jekyll-export/" "hyde/" "hello-world/" "flypy-emacs/" "esperisto.github.io/" "brume/" "awesome-mac/" "2016-7-29-test-org-mode-to-md.md" ".DS_Store" "../" "./")
 
- ("/Users/chigo/org/blog/_post/" (22137 39396 0 0) "2015-9-5-Migrant-to-Jekyll-on-Github.org" "2015-9-5-Migrant-to-Jekyll-on-Github.html" "2015-12-23-participo.org" "2015-12-19-My-translation-road.org" "2015-12-19-My-translation-road.html" "../" "./")
+ ("/Users/" (22429 63141 0 0) "Shared/" "chigo/" ".localized" "../" "./")
 
- ("/Users/chigo/.emacs.d/" (22133 7080 0 0) "url/" "tutorial/" "tramp" "snippets/" "places" "notes" "lisp/" "init.el" "ido.last" "games/" "eshell/" "elpa/" "bookmarks" "auto-save-list/" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#init-reset.el#" "../" "./")
+ ("/Users/chigo/org/quotes/" (22424 56681 0 0) "zhangwei.org" "XUNDING-Quote.org" "Shixiangdong.org" "quote.org" "quan.org" "ms.han.part1.org" "longpart2.org" "keyanqin2.org" "keyanqin2.html" "keyanqin.org" "keyanqin.html" "huwei.org" "hsinyilin.org" "gw-electric.org" "cheng.org" "cheerton.org" "century.org" "Bicycle.org" "Affidavit.org" ".DS_Store" "../" "./")
 
- ("/etc/" (22133 539 0 0) "zshrc" "zprofile" "xtab" "ttys" "syslog.conf" "sudoers" "sudo_lecture" "sshd_config~previous" "ssh_config~orig" "ssh/" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.common" "racoon/" "protocols" "profile" "ppp/" "postfix/" "php.ini.default-5.2-previous~orig" "php.ini.default-5.2-previous" "php.ini.default" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd~orig" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "moduli~previous" "master.passwd~orig" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "hosts~orig" "hosts~" "hosts.hum" "hosts.equiv" "hosts" "group~previous" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "bashrc_Apple_Terminal" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization.deprecated" "asl.conf" "asl/" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "../" "./")
+ ("/etc/" (22436 48002 0 0) "zshrc" "zprofile" "xtab" "ttys" "syslog.conf" "sudoers" "sudo_lecture" "sshd_config~previous" "ssh_config~orig" "ssh/" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.common" "racoon/" "protocols" "profile" "ppp/" "postfix/" "php.ini.default-5.2-previous~orig" "php.ini.default-5.2-previous" "php.ini.default" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd~orig" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "moduli~previous" "master.passwd~orig" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "hosts~orig" "hosts~" "hosts.hum" "hosts.equiv" "hosts" "group~previous" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "bashrc_Apple_Terminal" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization.deprecated" "asl.conf" "asl/" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "../" "./")
+
+ ("/Users/chigo/.emacs.d/" (22447 10634 0 0) "url/" "tutorial/" "tramp" "snippets/" "places" "notes" "lisp/" "init.el" "ido.last" "games/" "eshell/" "elpa/" "bookmarks" "auto-save-list/" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#init-reset.el#" "../" "./")
+
+ ("/Users/chigo/.emacs.d/lisp/" (22424 35005 0 0) "yasnippet/" "yasconfig.el" "textsizechange.el" "orgconfig.el" "mkdconfig.el" "markdown-mode.el" "dictionary.app.el" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/GitHub/esperisto.github.io/" (22452 44362 0 0) "tag/" "robots.txt" "resume/" "README.md" "publication/" "LICENSE" "js/" "index.html" "images/" "feed.xml" "favicon.png" "eo/" "css/" "copyright/" "contact.html" "CNAME" "cn/" "books/" "blog/" "assets/" "about.html" "_site/" "_posts/" "_layouts/" "_includes/" "_draft/" "_config.yml" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/org/blog/_post/" (22426 17457 0 0) "2015-9-5-Migrant-to-Jekyll-on-Github.org" "2015-9-5-Migrant-to-Jekyll-on-Github.html" "2015-12-23-participo.org" "2015-12-19-My-translation-road.org" "2015-12-19-My-translation-road.html" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/Downloads/willard-yuan-theme-master/css/" (22432 40859 0 0) "site.css" "font.css" "font/" "bootstrap.min.css" "blog.css" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/Downloads/willard-yuan-theme-master/cn/" (22447 9447 0 0) "index.html" "copyright.html" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/Downloads/willard-yuan-theme-master/_layouts/" (22434 15752 0 0) "toc.js" "simplePage.html" "publication.html" "project.html" "post.html" "default.html" "../" "./")
+
+ ("/Users/chigo/Downloads/willard-yuan-theme-master/" (22452 39178 0 0) "tag/" "robots.txt" "resume/" "publication/" "js/" "index.html" "images/" "feed.xml" "favicon.png" "eo/" "css/" "copyright/" "CNAME" "cn/" "books/" "blog/" "assets/" "_site/" "_posts/" "_layouts/" "_includes/" "_draft/" "_config.yml" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/org/" (22456 591 0 0) "translations/" "test.org" "taglibro.org" "quotes/" "personal.org" "personal.html" "participo.org" "notes.org" "klavaro.org" "img/" "from-mobile.org_archive" "from-mobile.org" "css/" "blog.org" "blog/" "2016-7-29-participo.html" ".DS_Store" ".#personal.org" "#personal.org#" "../" "./")
+
+ ("/Users/chigo/Downloads/" (22443 24274 0 0) "马克思主义哲学吧 资料盘/" "音乐：Be The Best.mp3" "韩非.jpg" "资治通鉴-%28柏杨白话版%29.mobi" "资料 发唐琴-TQ译.rar" "资料 发唐琴-TQ译/" "資治通鑑「原本無注」.epub" "译+英+160322茅台文图改-校.docx" "英译中-校改.docx" "自学世界语语音（文本＋音频）.zip" "自学世界语语音（文本＋音频）/" "自学世界语语音.PDF" "脐带血干细胞检测报告-Z0150629015.xls" "翻译的技巧 杨绛.pdf" "翻译-古秋婷.docx" "纯粹理性批判-李秋零.epub" "碧峰峡三日游.doc" "电脑版MDict词典（附世界语词库）/" "牛津通识读本：康德（中亚正版）.azw3" "營業執照/" "朱熹--四书章句集注.mobi" "新-待翻译III.pdf" "戴钰坤出行同意书-英文.doc" "我的音乐/" "我的父亲.docx" "我的父亲-1.docx" "恩格斯：反杜林论.txt" "左丘明--春秋左传.mobi" "工程(1).zip" "工作证明-TQ译.docx" "小苹果.mp3" "孟子译注_中华书局_杨伯峻_1960年版.pdf" "周祺一部.xls" "周祺1118-1201提取.rar" "史记二.doc" "史记一.doc" "史記「集解 索隱 正義」v2.0 final.epub" "史記「集解 索隱 正義」v2.0 final.azw3" "古文观止-吴楚材.吴调侯-繁体.epub" "兼职译员信息采集-Zhouqi.xlsx" "共产党宣言.mobi" "你一定爱读的极简欧洲史.epub" "余斌读马恩选集4.rar" "余斌读马恩选集4/" "余斌读马恩选集3.rar" "余斌读马恩选集3/" "余斌读马恩选集1上.rar" "余斌读马恩选集1上/" "会议议程.docx" "交易明细_6985_20130101_20141222.xls" "为什么我不是基督教徒[1].zip" "为什么我不是基督教徒[1]/" "中英互译试翻.docx" "【批量下载】CDImage等.zip" "【剑桥哲学指南系列】《共产党宣言》.epub" "XLDownload/" "willard-yuan-theme-master/" "Why Esperanto is not my favourite Artificial Language.doc" "what-is-marxism.mobi" "Weirdness_index_values_full_list.xlsx" "weekly-book_25.mobi.zip" "weekly-book_25.epub.zip" "vcards_20150925_171702.vcf" "USEsperanto.zip" "Ulysses_2.5.2_xclient.info.dmg" "U.S. Esperanto/" "typora_latest.zip" "triagradaj2012.doc" "tp+in+76+lessons+English.pdf" "Tickeys-0.5.0-yosemite.dmg" "Thumbs.db" "testdisk-7.0/" "ssaunier.github.io" "srca12306.zip" "srca12306/" "speed_up_osx/" "ShadowsocksX-2.6.3.dmg" "Rime4Esperanto.rar" "Rime4Esperanto/" "QQMgrDL/" "progit-zh.936.epub" "pmeg_15.0.zip" "pmeg_15.0/" "pk20150105.ppt" "MWeb_1.9.1_xclient.info.dmg" "Mou.zip" "Microsoft_Office_2016_15.24.0_160709_xclient.info.dmg" "mezgrada_kurso_nova.zip" "mezgrada_kurso_nova/" "MDictWithAddons.zip" "MDict.dmg" "master.zip" "Marx.chm" "MacDown.app.zip" "logo_retina1-.png" "Location and Accommodation information winter 2016 with CN(1).xlsx" "Kant-Critique of Pure Reason.mobi" "Kant-Critique of Pure Reason.epub" "k2pdfopt.exe" "k2pdfopt (1).exe" "javaforosx.dmg" "J58.pdf" "iToolsResource/" "Input-Font.zip" "Input-Font/" "How to succeed as a freelance translator.pdf" "Hari Potter kaj la Ŝtono de la Saĝuloj 2-02-05.doc" "Hans Ngo China Agreement FCB Draft 1 (1).doc" "haha.jpg" "guwenguanzhi3.rar" "guoxuedashi.zip" "gpautobackup_setup.dmg" "Gerda Malaperis.zip" "Gerda Malaperis/" "FX8_6577.JPG" "Firefox Sync Key.html" "feedly.opml.xml" "feedbooks_book_66.epub" "feedbooks_book_65.epub" "feedbooks_book_64.epub" "feedbooks_book_63.epub" "feedbooks_book_58.epub" "feedbooks_book_57.epub" "feedbooks_book_2.epub" "feedbooks_book_1421.epub" "feedbooks_book_1.epub" "favicon.ico" "ESF-klavaro.zip" "ESF-klavaro/" "Duelyst cards.ods" "DictUnifier.app/" "desktop.ini" "CreditCardReckoning201510.pdf" "converted-資治通鑑「原本無注」-epub/" "Collins COBUILD (CN).rar" "cataclysm-A.0/" "Beethoven - Complete Masterpieces - CD03.flac" "Beethoven - Complete Masterpieces - CD03.cue" "Baobab C1-5.tmp" "aspell6-eo-2.1.20000225a-2.tar.bz2" "Aliĝilo de Junulara Renkontiĝo en Chengdu.xls" "Affixes.pdf" "About Downloads.lpdf/" "[马克思 恩格斯]共产党宣言.epub" "[论语译注].杨伯峻.文字版.pdf" "[德]康德着+邓晓芒译：纯粹理性批判.pdf" "[中共中央马克思恩格斯列宁斯大林著作编译局 编]马克思恩格斯选集（第一卷）.epub" "70-75-何智勇.doc" "70-75-何智勇.BAK" "25215215_8724.doc" "2016-5-20 翻译红色文字  新加坡项目2015收支明细.xlsx" "2010-2014納稅證明書 Tax Statements.pdf" "18.pdf" "16815952_1316981581NwYL.jpg" "155802_5603ad0aada3d.xls" "153030_5603a69634a58.doc" "1469633076297.webm" "1444233393231.jpg" "1428074615449.mkv" "13shirt.jpg" "13redandblue.gif" "13purple.gif" "1.jpg" "1-page_Handy-Dandy.pdf" ".tmp/" ".localized" ".DS_Store" "$RECYCLE.BIN/" "../" "./")
+
+ ("/Users/chigo/" (22440 54057 0 0) "百度云同步盘/" "我的坚果云/" "快盘/" "VirtualBox VMs/" "TMX Editor Workspace/" "python-study/" "Public/" "Projects/" "Pictures/" "org/" "Music/" "Movies/" "mobileorg/" "logg.txt" "Library/" "Heartsome Workspace/" "GitHub/" "Downloads/" "Documents/" "Desktop/" "debug.log" "Calibre Library/" "Applications/" "AppleDNS-master/" ".xlive/" ".Xauthority" ".viminfo" ".Trash/" ".swt/" ".ssh/" ".ShadowsocksX/" ".rnd" ".rbenv/" ".org-timestamps/" ".oracle_jre_usage/" ".nutstore/" ".newsrc-dribble" ".mplayer/" ".local/" ".lesshst" ".kindle/" ".hgignore_global" ".goldendict/" ".gitignore_global" ".gitconfig" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".aspell.en.pws" ".aspell.en.prepl" "../" "./")
+
+ ("/Users/chigo/Downloads/willard-yuan-theme-master/project/" (22434 15525 0 0) "index.html" ".DS_Store" "../" "./")
+
+ ("/Users/chigo/Documents/" (22420 60302 0 0) "青羊淘宝店铺信息汇总.xls" "致医院领导一封信.pdf" "致医院领导一封信.docx" "老爸文件/" "给总监_公司的信-中英文-英文修订稿.doc" "市图 通向世界的护照 v10.ppt" "字数统计用.docx" "吴佳/" "Zamenhof festo cxefpagxo.ppt" "Wordpress Media/" "Virtual Machines.localized/" "Trados TM/" "tokipona-course/" "TiddlyWiki-Filozofio/" "TiddlyWiki-anything.html" "Tencent Files/" "Safari 书签2016-4-3.html" "PPT de Pradip Ghimire.zip" "Markdown 语法和 MWeb 写作使用说明.md" "Libro/" "K75.pdf" "Heartsome TMX Editor/" "Heartsome TM/" "Heartsome Termbase/" "GoogleBookmarks.html" "flvcd/" "Esperisto/" "EComegat/" "Dictionary/" "Dejavu X DB/" "CEomegat/" "Anki/" "00001.vcf" ".rqd/" ".localized" ".DS_Store" "../" "./")
 
  ("/Users/chigo/GitHub/esperisto.github.io/_posts/" (21997 44816 0 0) "2015-9-5-Migrant-to-Jekyll-on-Github.html" "2013-12-29-tajpi-esperanton-en-makintosho.md" "2013-08-16-OS-X-Send-to.md" "2013-03-26-better-music-than-white-noise.md" "2013-03-20-fatest-and-simplest-text-editor-in-the-world.md" "2012-02-08-esperantaj-pagharoj-por-lernantoj.md" "2011-01-05-skribilo-kaj-destino.md" "2010-12-03-family-constelation-wikipedia-entry.md" "2010-07-02-kio-kaj-kiu-estas-esperantisto.md" "2010-01-14-testing-juziyue.md" "2009-09-24-8-characteristics-of-a-good-team-leader.md" "2009-08-28-10-tips-for-communicating-with-employees.md" "2009-06-15-6-steps-to-a-fundraising-plan-for-a-new-nonprofit.md" "2008-11-27-10-tips-for-successful-public-speaking.md" "2008-08-29-green-it-healthy-life.md" "2008-07-26-handling-incoming-communication.md" "2008-07-11-7-deadly-sins-for-speakers-and-presenters.md" "2008-06-21-hello-world.md" "2007-12-28-bottle-and-cap-opener.md" "2007-12-24-merry-xmas.md" "2007-12-03-i-still-alive.md" "2007-10-11-5-steps-to-useful-meetings.md" "2007-09-13-5-virtues-of-successful-man.md" "2007-09-12-7-tips-for-making-waiting-more-productive.md" "2007-08-31-blogday.md" "2007-08-23-update-in-traditional-chinese.md" "2007-08-21-78.md" "2007-08-03-how-to-make-portable-skype.md" "2007-07-29-live-writer-chinese-version.md" "2007-07-13-how-to-input-chinese-in-plugoo.md" "2007-07-12-aosou-fun-blog.md" "2007-06-28-10-tips-help-to-keep-your-desk-clean.md" "2007-06-15-blogsome-banned-again.md" "2007-06-06-hello-world-2.md" "2007-05-31-beloved-singer-gone.md" "2007-05-04-6-tips-help-to-overcome-procrastination.md" "2007-05-03-8-common-time-wastes.md" "2007-05-01-my-sayings.md" "2007-04-21-ajaxtrans.md" "2007-04-19-free-editors.md" "2007-03-16-review-esperanto.md" "2007-03-16-review-college-life.md" "2007-03-15-review-readings.md" "2007-02-05-do-it-as-your-will-vs-all-respects.md" "2007-01-26-pagerank-raised.md" "2007-01-26-move-and-backup.md" "2006-11-22-ubuntu-down.md" "2006-09-26-ubuntu-606-installation-tips.md" "2006-09-18-9-18.md" "2006-09-14-updated-about-me.md" "2006-09-11-recategorized-and-aq-blog.md" "2006-09-03-an-open-plan.md" "2006-08-21-10-mental-tracks.md" "2006-07-19-bad-weather.md" "2006-07-14-now-and-past.md" "2006-07-01-thoughts.md" "2006-05-20-remenbrance.md" "2005-10-19-current-feeling.md" "2005-08-20-about-to-go.md" "2005-08-16-about-esperanto-websites.md" "2005-08-15-Xipu-and-Huayang.md" "2005-07-31-riding-practice.md" ".DS_Store" "../" "./")
 
- ("/Users/chigo/GitHub/esperisto.github.io/" (22129 46207 0 0) "tags.html" "sitemap.xml" "search.json" "search.html" "README.md" "LICENSE" "index.html" "feed.xml" "favicon.png" "copyright.html" "contact.html" "CNAME" "assets/" "archive.html" "about.html" "_site/" "_posts/" "_layouts/" "_includes/" "_config.yml" "404.html" ".sass-cache/" ".gitignore" ".git/" ".DS_Store" "../" "./")
-
  ("/Users/chigo/Documents/tokipona-course/target/" (22100 37303 0 0) "Toki Pona Vocabulary Index.html" "Toki Pona Place Names.html" "Toki Pona Lesson 9.html" "Toki Pona Lesson 8.html" "Toki Pona Lesson 7.html" "Toki Pona Lesson 6.html" "Toki Pona Lesson 5.html" "Toki Pona Lesson 4.html" "Toki Pona Lesson 3.html" "Toki Pona Lesson 2.html" "Toki Pona Lesson 19.html" "Toki Pona Lesson 18.html" "Toki Pona Lesson 17.html" "Toki Pona Lesson 16.html" "Toki Pona Lesson 15.html" "Toki Pona Lesson 14.html" "Toki Pona Lesson 13.html" "Toki Pona Lesson 12.html" "Toki Pona Lesson 11.html" "Toki Pona Lesson 10.html" "Toki Pona Lesson 1.html" "Toki Pona Language Names.html" "Toki Pona Dictionary.html" "Toki Pona Course Summary.html" "style1.css" "smiley.png" "Phonetic Conversion in Toki Pona.html" "o kama sona e toki pona!.html" "next.png" "../" "./")
-
- ("/Users/chigo/GitHub/" (22099 13164 0 0) "wangana-master.zip" "tokipona/" "testing-git/" "jekyll-export.zip" "jekyll-export/" "hello-world/" "esperisto.github.io/" ".DS_Store" "../" "./")
-
- ("/Users/chigo/.emacs.d/lisp/" (22124 19472 0 0) "yasnippet/" "yasconfig.el" "textsizechange.el" "orgconfig.el" "mkdconfig.el" "markdown-mode.el" "dictionary.app.el" ".DS_Store" "../" "./")
 
  ("/Users/chigo/org/translations/" (21978 44415 0 0) "Xunding/" "shi/" "Gao/" ".DS_Store" "../" "./")
 
  ("/Users/chigo/Documents/tokipona-course/source/" (22093 37070 0 0) "Toki Pona Vocabulary Index.html" "Toki Pona Place Names.html" "Toki Pona Lesson 9.html" "Toki Pona Lesson 8.html" "Toki Pona Lesson 7.html" "Toki Pona Lesson 6.html" "Toki Pona Lesson 5.html" "Toki Pona Lesson 4.html" "Toki Pona Lesson 3.html" "Toki Pona Lesson 2.html" "Toki Pona Lesson 19.html" "Toki Pona Lesson 18.html" "Toki Pona Lesson 17.html" "Toki Pona Lesson 16.html" "Toki Pona Lesson 15.html" "Toki Pona Lesson 14.html" "Toki Pona Lesson 13.html" "Toki Pona Lesson 12.html" "Toki Pona Lesson 11.html" "Toki Pona Lesson 10.html" "Toki Pona Lesson 1.html" "Toki Pona Language Names.html" "Toki Pona Dictionary.html" "Toki Pona Course Summary.html" "Phonetic Conversion in Toki Pona.html" "o kama sona e toki pona!.html" "../" "./")
 
  ("/Users/chigo/Documents/tokipona-course/" (22098 52822 0 0) "tokipona-course-omegat.tmx" "tokipona-course-level2.tmx" "tokipona-course-level1.tmx" "tm/" "target/" "source/" "omegat.project" "omegat/" "glossary/" "dictionary/" ".DS_Store" "../" "./")
-
- ("/Users/chigo/Documents/" (22093 36979 0 0) "青羊淘宝店铺信息汇总.xls" "致医院领导一封信.pdf" "致医院领导一封信.docx" "老爸文件/" "给总监_公司的信-中英文-英文修订稿.doc" "毛舅舅的联系人.vcf" "吴佳/" "Wordpress Media/" "Virtual Machines.localized/" "Trados TM/" "tokipona-course/" "TiddlyWiki-Filozofio/" "TiddlyWiki-anything.html" "Tencent Files/" "Studio 2011/" "RDC Connections/" "PPT de Pradip Ghimire.zip" "PPT de Pradip Ghimire/" "Microsoft 用户数据/" "Libro/" "Heartsome TMX Editor/" "Heartsome TM/" "Heartsome Termbase/" "flvcd/" "Esperisto/" "EComegat/" "desktop.ini" "CEomegat/" "Anki/" "00001.vcf" ".localized" ".DS_Store" "$RECYCLE.BIN/" "../" "./")
-
- ("/Users/" (22050 59933 0 0) "Shared/" "Guest/" "chigo/" ".localized" "../" "./")
-
- ("/Users/chigo/org/quotes/" (22019 62783 0 0) "zhangwei.org" "XUNDING-Quote.org" "Shixiangdong.org" "quote.org" "quan.org" "ms.han.part1.org" "longpart2.org" "keyanqin2.org" "keyanqin2.html" "keyanqin.org" "keyanqin.html" "huwei.org" "gw-electric.org" "cheng.org" "cheerton.org" "century.org" "Bicycle.org" "Affidavit.org" "../" "./")
 
  ("/Users/chigo/org/css/" (21978 60183 0 0) "../" "./")
 

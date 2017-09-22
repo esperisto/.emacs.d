@@ -2,10 +2,14 @@
 # name: entry
 # key: entry_
 # --
+#+STARTUP: showall indent
+#+OPTIONS: ^:nil
 #+begin_html
 ---
-layout: ${1:default}
+layout: ${1:post}
 title: ${2:title}
+archive: ${3:false}
+comments ${4:true}
 ---
 #+end_html
 $0

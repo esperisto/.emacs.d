@@ -8,8 +8,8 @@
  (rear-context-string . "软件\\\\\n  报70每千字中文\n")
  (position . 1240))
 ("org-capture-last-stored"
- (filename . "~/org/personal.org")
- (front-context-string . "** TODO 制作《论犹太问问")
- (rear-context-string . "2016-02-05 Fri]\n")
- (position . 9937))
+ (filename . "~/org/taglibro.org")
+ (front-context-string . "**** Hodiaŭ anta")
+ (rear-context-string . "16-11-27 Sunday\n")
+ (position . 808))
 )
