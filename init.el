@@ -14,6 +14,8 @@
 (require 'mkdconfig)
 (require 'yasconfig)
 (require 'textsizechange)
+(require 'sr-speedbar)
+(global-set-key (kbd "C-c s") 'sr-speedbar-toggle)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -25,15 +27,19 @@
  '(ansi-color-names-vector
    ["#212121" "#CC5542" "#6aaf50" "#7d7c61" "#5180b3" "#DC8CC3" "#9b55c3" "#bdbdb3"])
  '(current-language-environment "UTF-8")
- '(custom-enabled-themes (quote (cyberpunk)))
+ '(custom-enabled-themes (quote (autumn-light)))
  '(custom-safe-themes
    (quote
-    ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "8fed5e4b89cf69107d524c4b91b4a4c35bcf1b3563d5f306608f0c48f580fdf8" default)))
+    ("55d31108a7dc4a268a1432cd60a7558824223684afecefa6fae327212c40f8d3" "68f9fc40a1b15d986fd149dd286335b056dc2138fc2aa464a7402bad2c6f7bc6" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "8fed5e4b89cf69107d524c4b91b4a4c35bcf1b3563d5f306608f0c48f580fdf8" default)))
  '(default-input-method "esperanto-postfix")
  '(display-time-mode t)
  '(fci-rule-color "#2e2e2e")
  '(ispell-program-name "aspell")
  '(make-backup-files nil)
+ '(nrepl-message-colors
+   (quote
+    ("#183691" "#888a88" "#539100" "#888a88" "#0086b3" "#183691" "#539100" "#888a88")))
+ '(org-archive-location "~/org/archive.org::** Finished Tasks")
  '(org-export-with-sub-superscripts (quote {}))
  '(org-mobile-directory "~/mobileorg")
  '(package-archives
@@ -42,8 +48,11 @@
      ("melpa" . "https://melpa.org/packages/"))))
  '(package-selected-packages
    (quote
-    (ample-zen-theme color-theme-solarized cyberpunk-theme)))
+    (autumn-light-theme chyla-theme tabbar todotxt sr-speedbar ample-zen-theme color-theme-solarized cyberpunk-theme)))
+ '(pdf-view-midnight-colors (quote ("#888a88" . "#edf5dc")))
  '(show-paren-mode t)
+ '(tabbar-mode t nil (tabbar))
+ '(user-mail-address "esperisto@gmail.com")
  '(vc-annotate-background "#3b3b3b")
  '(vc-annotate-color-map
    (quote

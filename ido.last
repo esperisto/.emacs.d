@@ -11,16 +11,16 @@
  ("/Users/" . "chigo/")
  ("/" . "etc/")
  ("/Users/chigo/.emacs.d/" . "lisp/")
- ("/Users/chigo/" . "GitHub/")
+ ("/Users/chigo/" . ".emacs.d/")
  ("/Users/chigo/org/blog/" . "_post/")
  ("/Users/chigo/org/" . "blog/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/chigo/GitHub/esperisto.github.io/_draft/"
  "/Users/chigo/.emacs.d/lisp/"
  "/Users/chigo/org/"
+ "/Users/chigo/GitHub/esperisto.github.io/_draft/"
  "/Users/chigo/Downloads/willard-yuan-theme-master/"
  "/Users/chigo/Downloads/willard-yuan-theme-master/_layouts/"
  "/Users/chigo/Downloads/willard-yuan-theme-master/cn/"
@@ -37,6 +37,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "archive.org"
  "2016-8-20-org-mode-export-to-word-or-odt.md"
  "orgconfig.el"
  "personal.org"
@@ -46,26 +47,29 @@
  "project.html"
  "site.css"
  "copyright.html"
- "from-mobile.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/chigo/GitHub/esperisto.github.io/_draft/" (22428 34768 0 0) ".DS_Store" "../" "./")
+ ("/Users/chigo/org/" (23375 23913 868274 740000) "klavaro.org" "translations/" "2016-7-29-participo.html" ".#archive.org" "personal.org" "test.org" "blog.org" "participo.org" "img/" "blog/" "taglibro.org" "#archive.org#" "notes.org" "from-mobile.org_archive" "quotes/" "css/" "#personal.org#" ".DS_Store" ".#personal.org" "personal.html" "archive.org" "from-mobile.org" "../" "./")
+
+ ("/Users/chigo/.emacs.d/lisp/" (23375 23615 180517 453000) "yasconfig.el" "orgconfig.el" "markdown-mode.el" "yasnippet/" "dictionary.app.el" "mkdconfig.el" ".DS_Store" "textsizechange.el" "../" "./")
+
+ ("/Users/" (23056 37487 861091 271000) "Guest/" "chigo/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/chigo/" (23374 512 728251 416000) ".offlineimaprc" ".viminfo" ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".Xauthority" ".gem/" ".aspell.en.pws" ".bash_profile" ".swt/" "Documents/" ".nutstore/" "AppleDNS-master/" ".aspell.en.prepl" "TMX Editor Workspace/" ".Trash/" "Applications/" ".vimrc" "Movies/" ".ssh/" "News/" "GitHub/" "Public/" ".mplayer/" ".bash_sessions/" ".gitignore_global" "百度云同步盘/" ".emacs.d/" "Calibre Library/" ".oracle_jre_usage/" ".lesshst" "mobileorg/" "我的坚果云/" "Nustore Files/" "Library/" "Desktop/" ".gnus.el" ".rnd" "python-study/" ".atom/" "Pictures/" "Projects/" ".local/" "Mail/" "org/" ".bashrc" ".goldendict/" ".rbenv/" ".hgignore_global" "Heartsome Workspace/" ".CFUserTextEncoding" "VirtualBox VMs/" ".ShadowsocksX/" ".offlineimap/" ".DS_Store" ".newsrc" ".gemrc" ".wns/" ".newsrc.eld" "Music/" ".config/" ".xlive/" ".org-timestamps/" "../" "./")
+
+ ("/etc/" (23367 40802 368 620000) "notify.conf" "mail.rc" "bashrc~previous" "newsyslog.conf" "mach_init_per_user.d/" "afpovertcp.cfg" "zprofile" "passwd" "mail.rc~orig" "services" "man.conf" "cups/" "protocols" "shells~orig" "wfs/" "com.apple.screensharing.agent.launchd" "paths~orig" "aliases" "openldap/" "fstab.hd" "sshd_config~previous" "master.passwd" "rpc" "passwd~orig" "gettytab~orig" "php.ini.default-5.2-previous" "ntp.conf" "php.ini.default-previous~orig" "pf.anchors/" "pf.os" "postfix/" "efax.rc~previous" "hosts" "kern_loader.conf~previous" "nfs.conf~orig" "hosts~orig" "afpovertcp.cfg~orig" "rc.netboot" "moduli~previous" "hosts.hum" "asl.conf" "sudo_lecture" "sudoers~orig" "nfs.conf" "resolv.conf" "locate.rc" "authorization.deprecated" "profile~orig" "ssh_config~orig" "ntp_opendirectory.conf" "fstab.hd~previous" "csh.cshrc" "profile" "mach_init_per_login_session.d/" "ftpusers" "ssh/" "autofs.conf" "apache2/" "rpc~previous" "find.codes" "networks" "hosts.equiv" "defaults/" "zshrc" "pam.d/" "irbrc" "newsyslog.d/" "auto_master~orig" "find.codes~orig" "bashrc" "ftpusers~orig" "sudoers" "pf.conf" "localtime" "php.ini.default" "xtab" "csh.cshrc~orig" "rmtab" "paths" "php-fpm.conf.default" "group~previous" "php-fpm.d/" "ttys" "rc.common~previous" "shells" "ppp/" "manpaths.d/" "php.ini.default-previous" "auto_home" "group" "protocols~previous" "security/" "rtadvd.conf" "csh.login~orig" "asl/" "paths.d/" "networks~orig" "kern_loader.conf" "master.passwd~orig" "gettytab" "snmp/" "racoon/" "bashrc_Apple_Terminal" "aliases.db" "csh.logout" "ttys~previous" "nanorc" "ssl/" "sudoers.d/" "krb5.keytab" "syslog.conf~previous" "rtadvd.conf~previous" "syslog.conf" "mach_init.d/" "csh.login" "php.ini.default-5.2-previous~orig" "auto_master" "csh.logout~orig" "rc.common" "dnsextd.conf" "services~previous" "manpaths" "periodic/" "ntp-restrict.conf" "emond.d/" "hosts~" "../" "./")
+
+ ("/Users/chigo/.emacs.d/" (23375 21541 948062 753000) "games/" ".git/" "elpa/" ".org-id-locations" ".gitignore" "bookmarks" "notes" "init.el" "todo/" "url/" "auto-save-list/" "tramp" "places" "eshell/" ".DS_Store" "lisp/" "tutorial/" "ido.last" "snippets/" "#init-reset.el#" "../" "./")
+
+ ("/Users/chigo/GitHub/esperisto.github.io/" (23368 45959 583072 61000) "tag/" "assets/" ".git/" "robots.txt" "copyright/" "eo/" "_config.yml" "_site/" ".gitignore" "favicon.png" "README.md" "blog/" "_layouts/" "books/" "_draft/" "resume/" "CNAME.old" "js/" "cn/" "_posts/" "images/" "contact.html" "css/" "about.html" "LICENSE" "publication/" ".DS_Store" "index.html" "feed.xml" "_includes/" "../" "./")
+
+ ("/Users/chigo/GitHub/esperisto.github.io/_draft/" (22456 22438 0 0) ".DS_Store" "../" "./")
 
  ("/Users/chigo/GitHub/" (22431 10228 0 0) "wangana-master.zip" "tokipona/" "testing-git/" "testing-blog/" "MeetHyde/" "Jekyll-Pithy/" "jekyll-export.zip" "jekyll-export/" "hyde/" "hello-world/" "flypy-emacs/" "esperisto.github.io/" "brume/" "awesome-mac/" "2016-7-29-test-org-mode-to-md.md" ".DS_Store" "../" "./")
 
- ("/Users/" (22429 63141 0 0) "Shared/" "chigo/" ".localized" "../" "./")
-
  ("/Users/chigo/org/quotes/" (22424 56681 0 0) "zhangwei.org" "XUNDING-Quote.org" "Shixiangdong.org" "quote.org" "quan.org" "ms.han.part1.org" "longpart2.org" "keyanqin2.org" "keyanqin2.html" "keyanqin.org" "keyanqin.html" "huwei.org" "hsinyilin.org" "gw-electric.org" "cheng.org" "cheerton.org" "century.org" "Bicycle.org" "Affidavit.org" ".DS_Store" "../" "./")
-
- ("/etc/" (22436 48002 0 0) "zshrc" "zprofile" "xtab" "ttys" "syslog.conf" "sudoers" "sudo_lecture" "sshd_config~previous" "ssh_config~orig" "ssh/" "snmp/" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.netboot" "rc.common" "racoon/" "protocols" "profile" "ppp/" "postfix/" "php.ini.default-5.2-previous~orig" "php.ini.default-5.2-previous" "php.ini.default" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "paths.d/" "paths" "passwd~orig" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "moduli~previous" "master.passwd~orig" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "hosts~orig" "hosts~" "hosts.hum" "hosts.equiv" "hosts" "group~previous" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "bashrc_Apple_Terminal" "bashrc" "autofs.conf" "auto_master" "auto_home" "authorization.deprecated" "asl.conf" "asl/" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "../" "./")
-
- ("/Users/chigo/.emacs.d/" (22447 10634 0 0) "url/" "tutorial/" "tramp" "snippets/" "places" "notes" "lisp/" "init.el" "ido.last" "games/" "eshell/" "elpa/" "bookmarks" "auto-save-list/" ".org-id-locations" ".gitignore" ".git/" ".DS_Store" "#init-reset.el#" "../" "./")
-
- ("/Users/chigo/.emacs.d/lisp/" (22424 35005 0 0) "yasnippet/" "yasconfig.el" "textsizechange.el" "orgconfig.el" "mkdconfig.el" "markdown-mode.el" "dictionary.app.el" ".DS_Store" "../" "./")
-
- ("/Users/chigo/GitHub/esperisto.github.io/" (22452 44362 0 0) "tag/" "robots.txt" "resume/" "README.md" "publication/" "LICENSE" "js/" "index.html" "images/" "feed.xml" "favicon.png" "eo/" "css/" "copyright/" "contact.html" "CNAME" "cn/" "books/" "blog/" "assets/" "about.html" "_site/" "_posts/" "_layouts/" "_includes/" "_draft/" "_config.yml" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/chigo/org/blog/_post/" (22426 17457 0 0) "2015-9-5-Migrant-to-Jekyll-on-Github.org" "2015-9-5-Migrant-to-Jekyll-on-Github.html" "2015-12-23-participo.org" "2015-12-19-My-translation-road.org" "2015-12-19-My-translation-road.html" ".DS_Store" "../" "./")
 
@@ -77,11 +81,7 @@
 
  ("/Users/chigo/Downloads/willard-yuan-theme-master/" (22452 39178 0 0) "tag/" "robots.txt" "resume/" "publication/" "js/" "index.html" "images/" "feed.xml" "favicon.png" "eo/" "css/" "copyright/" "CNAME" "cn/" "books/" "blog/" "assets/" "_site/" "_posts/" "_layouts/" "_includes/" "_draft/" "_config.yml" ".DS_Store" "../" "./")
 
- ("/Users/chigo/org/" (22456 591 0 0) "translations/" "test.org" "taglibro.org" "quotes/" "personal.org" "personal.html" "participo.org" "notes.org" "klavaro.org" "img/" "from-mobile.org_archive" "from-mobile.org" "css/" "blog.org" "blog/" "2016-7-29-participo.html" ".DS_Store" ".#personal.org" "#personal.org#" "../" "./")
-
  ("/Users/chigo/Downloads/" (22443 24274 0 0) "马克思主义哲学吧 资料盘/" "音乐：Be The Best.mp3" "韩非.jpg" "资治通鉴-%28柏杨白话版%29.mobi" "资料 发唐琴-TQ译.rar" "资料 发唐琴-TQ译/" "資治通鑑「原本無注」.epub" "译+英+160322茅台文图改-校.docx" "英译中-校改.docx" "自学世界语语音（文本＋音频）.zip" "自学世界语语音（文本＋音频）/" "自学世界语语音.PDF" "脐带血干细胞检测报告-Z0150629015.xls" "翻译的技巧 杨绛.pdf" "翻译-古秋婷.docx" "纯粹理性批判-李秋零.epub" "碧峰峡三日游.doc" "电脑版MDict词典（附世界语词库）/" "牛津通识读本：康德（中亚正版）.azw3" "營業執照/" "朱熹--四书章句集注.mobi" "新-待翻译III.pdf" "戴钰坤出行同意书-英文.doc" "我的音乐/" "我的父亲.docx" "我的父亲-1.docx" "恩格斯：反杜林论.txt" "左丘明--春秋左传.mobi" "工程(1).zip" "工作证明-TQ译.docx" "小苹果.mp3" "孟子译注_中华书局_杨伯峻_1960年版.pdf" "周祺一部.xls" "周祺1118-1201提取.rar" "史记二.doc" "史记一.doc" "史記「集解 索隱 正義」v2.0 final.epub" "史記「集解 索隱 正義」v2.0 final.azw3" "古文观止-吴楚材.吴调侯-繁体.epub" "兼职译员信息采集-Zhouqi.xlsx" "共产党宣言.mobi" "你一定爱读的极简欧洲史.epub" "余斌读马恩选集4.rar" "余斌读马恩选集4/" "余斌读马恩选集3.rar" "余斌读马恩选集3/" "余斌读马恩选集1上.rar" "余斌读马恩选集1上/" "会议议程.docx" "交易明细_6985_20130101_20141222.xls" "为什么我不是基督教徒[1].zip" "为什么我不是基督教徒[1]/" "中英互译试翻.docx" "【批量下载】CDImage等.zip" "【剑桥哲学指南系列】《共产党宣言》.epub" "XLDownload/" "willard-yuan-theme-master/" "Why Esperanto is not my favourite Artificial Language.doc" "what-is-marxism.mobi" "Weirdness_index_values_full_list.xlsx" "weekly-book_25.mobi.zip" "weekly-book_25.epub.zip" "vcards_20150925_171702.vcf" "USEsperanto.zip" "Ulysses_2.5.2_xclient.info.dmg" "U.S. Esperanto/" "typora_latest.zip" "triagradaj2012.doc" "tp+in+76+lessons+English.pdf" "Tickeys-0.5.0-yosemite.dmg" "Thumbs.db" "testdisk-7.0/" "ssaunier.github.io" "srca12306.zip" "srca12306/" "speed_up_osx/" "ShadowsocksX-2.6.3.dmg" "Rime4Esperanto.rar" "Rime4Esperanto/" "QQMgrDL/" "progit-zh.936.epub" "pmeg_15.0.zip" "pmeg_15.0/" "pk20150105.ppt" "MWeb_1.9.1_xclient.info.dmg" "Mou.zip" "Microsoft_Office_2016_15.24.0_160709_xclient.info.dmg" "mezgrada_kurso_nova.zip" "mezgrada_kurso_nova/" "MDictWithAddons.zip" "MDict.dmg" "master.zip" "Marx.chm" "MacDown.app.zip" "logo_retina1-.png" "Location and Accommodation information winter 2016 with CN(1).xlsx" "Kant-Critique of Pure Reason.mobi" "Kant-Critique of Pure Reason.epub" "k2pdfopt.exe" "k2pdfopt (1).exe" "javaforosx.dmg" "J58.pdf" "iToolsResource/" "Input-Font.zip" "Input-Font/" "How to succeed as a freelance translator.pdf" "Hari Potter kaj la Ŝtono de la Saĝuloj 2-02-05.doc" "Hans Ngo China Agreement FCB Draft 1 (1).doc" "haha.jpg" "guwenguanzhi3.rar" "guoxuedashi.zip" "gpautobackup_setup.dmg" "Gerda Malaperis.zip" "Gerda Malaperis/" "FX8_6577.JPG" "Firefox Sync Key.html" "feedly.opml.xml" "feedbooks_book_66.epub" "feedbooks_book_65.epub" "feedbooks_book_64.epub" "feedbooks_book_63.epub" "feedbooks_book_58.epub" "feedbooks_book_57.epub" "feedbooks_book_2.epub" "feedbooks_book_1421.epub" "feedbooks_book_1.epub" "favicon.ico" "ESF-klavaro.zip" "ESF-klavaro/" "Duelyst cards.ods" "DictUnifier.app/" "desktop.ini" "CreditCardReckoning201510.pdf" "converted-資治通鑑「原本無注」-epub/" "Collins COBUILD (CN).rar" "cataclysm-A.0/" "Beethoven - Complete Masterpieces - CD03.flac" "Beethoven - Complete Masterpieces - CD03.cue" "Baobab C1-5.tmp" "aspell6-eo-2.1.20000225a-2.tar.bz2" "Aliĝilo de Junulara Renkontiĝo en Chengdu.xls" "Affixes.pdf" "About Downloads.lpdf/" "[马克思 恩格斯]共产党宣言.epub" "[论语译注].杨伯峻.文字版.pdf" "[德]康德着+邓晓芒译：纯粹理性批判.pdf" "[中共中央马克思恩格斯列宁斯大林著作编译局 编]马克思恩格斯选集（第一卷）.epub" "70-75-何智勇.doc" "70-75-何智勇.BAK" "25215215_8724.doc" "2016-5-20 翻译红色文字  新加坡项目2015收支明细.xlsx" "2010-2014納稅證明書 Tax Statements.pdf" "18.pdf" "16815952_1316981581NwYL.jpg" "155802_5603ad0aada3d.xls" "153030_5603a69634a58.doc" "1469633076297.webm" "1444233393231.jpg" "1428074615449.mkv" "13shirt.jpg" "13redandblue.gif" "13purple.gif" "1.jpg" "1-page_Handy-Dandy.pdf" ".tmp/" ".localized" ".DS_Store" "$RECYCLE.BIN/" "../" "./")
-
- ("/Users/chigo/" (22440 54057 0 0) "百度云同步盘/" "我的坚果云/" "快盘/" "VirtualBox VMs/" "TMX Editor Workspace/" "python-study/" "Public/" "Projects/" "Pictures/" "org/" "Music/" "Movies/" "mobileorg/" "logg.txt" "Library/" "Heartsome Workspace/" "GitHub/" "Downloads/" "Documents/" "Desktop/" "debug.log" "Calibre Library/" "Applications/" "AppleDNS-master/" ".xlive/" ".Xauthority" ".viminfo" ".Trash/" ".swt/" ".ssh/" ".ShadowsocksX/" ".rnd" ".rbenv/" ".org-timestamps/" ".oracle_jre_usage/" ".nutstore/" ".newsrc-dribble" ".mplayer/" ".local/" ".lesshst" ".kindle/" ".hgignore_global" ".goldendict/" ".gitignore_global" ".gitconfig" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".aspell.en.pws" ".aspell.en.prepl" "../" "./")
 
  ("/Users/chigo/Downloads/willard-yuan-theme-master/project/" (22434 15525 0 0) "index.html" ".DS_Store" "../" "./")
 
