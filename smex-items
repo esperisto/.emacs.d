@@ -1,0 +1,16 @@
+
+;; ----- smex-history -----
+(
+ set-input-method
+ cd
+ 5x5
+ arp
+ dbx
+ dig
+ erc
+)
+
+;; ----- smex-data -----
+(
+ (set-input-method . 1)
+)
