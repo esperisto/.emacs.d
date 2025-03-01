@@ -80,7 +80,7 @@
 
 ;; I use the following setting to remove the xml header line for HTML exports.
 ;; This xml line was confusing Open Office when opening the HTML to convert to ODT.
-
+;; 默认导出xml的文件头而非html的文件头，用Word打开会错误。
 (setq org-html-xml-declaration (quote (("html" . "")
                                        ("was-html" . "<?xml version=\"1.0\" encoding=\"%s\"?>")
                                        ("php" . "<?php echo \"<?xml version=\\\"1.0\\\" encoding=\\\"%s\\\" ?>\"; ?>"))))

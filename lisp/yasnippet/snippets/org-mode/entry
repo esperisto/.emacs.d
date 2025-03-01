@@ -1,15 +1,20 @@
 # -*- mode: snippet -*-
-# name: entry
+# name: ent
 # key: entry_
 # --
 #+STARTUP: showall indent
+#+OPTIONS: hidestars
 #+OPTIONS: ^:nil
-#+begin_html
+#+OPTIONS: toc:nil
+#+begin_export 
 ---
 layout: ${1:post}
 title: ${2:title}
 archive: ${3:false}
-comments ${4:true}
+comments: ${4:true}
+category: ${5:category}
+tags: ${6:tag1}
 ---
-#+end_html
+#+end_export
+#+TOC: headlines 4
 $0
