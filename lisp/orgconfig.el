@@ -41,7 +41,7 @@
 (add-hook 'org-mode-hook
           (lambda ()
             ;; flyspell mode for spell checking everywhere
-            (flyspell-mode 1)
+            (flyspell-mode 0)
             ;; auto-fill mode on
             (auto-fill-mode 1)))
 
